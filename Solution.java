@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import java.util.Collections;
 /**
  * Write a description of class Solution here.
  *
@@ -45,10 +45,10 @@ public class Solution
         
         System.out.println("Number of fever cases reported:" + count);
         System.out.println("Higher fever case:" + max);
+        
+        //question 26 - using Collections.max
+        System.out.println("Higher fever case (Collections.max):" + Collections.max(temperatures));
     }
-    
-    
-    
     
     /**
      * An example of a method - replace this comment with your own
