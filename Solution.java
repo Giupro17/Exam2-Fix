@@ -48,6 +48,9 @@ public class Solution
         
         //question 26 - using Collections.max
         System.out.println("Higher fever case (Collections.max):" + Collections.max(temperatures));
+        //question 27
+        Collections.sort(temperatures);
+        System.out.println("Higher fever case (Collections.sort):" + temperatures.get(temperatures.size()-1));
     }
     
     /**
