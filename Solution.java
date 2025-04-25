@@ -17,6 +17,16 @@ public class Solution
     {
         // initialise instance variables
         x = 0;
+        
+        
+        /*ArrayList temperatures = new ArrayList<Double>();
+        temperatures.add(34.5);
+        temperatures.add(39.5);
+        temperatures.add()
+        temperatures.add()
+        temperatures.add()
+        temperatures.add()
+        */
     }
 
     /**
@@ -25,19 +35,19 @@ public class Solution
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod()
+    public boolean sampleMethod()
     {
        //question 24
        String c = "car";
        String b = "bus";
-       if (c.equals(b)){
-           System.out.println("they are not equal to eachother");
+       if (c == b){
+           return true;
            
        }
        else {
-           System.out.println("they are equal to eachother");
+           return false;
         }
-        return 0;
+      
     }
 }
 /*
