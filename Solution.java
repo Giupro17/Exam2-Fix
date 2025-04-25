@@ -34,12 +34,18 @@ public class Solution
     public void feverTest(ArrayList<Double> temperatures){
         int count = 0;
         double max = 0;
+        for (Double temp : temperatures) {        
+            if (temp > 37.5) {
+                count++;
+            }
+            if (temp > max) {
+                max = temp;
+            }
+        }
+        
         System.out.println("Number of fever cases reported:" + count);
         System.out.println("Higher fever case:" + max);
-        for (int i = 0; i < temperatures.size(); i++) {        
-            System.out.println("is fever");
-        }
-        }
+    }
     
     
     
