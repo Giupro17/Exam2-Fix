@@ -30,16 +30,14 @@ public class Solution
        //question 24
        String c = "car";
        String b = "bus";
-       String c == String b;
-       if (String c == String b = false){
-           System.out.println("they are not equal to eachother"):
+       if (c.equals(b)){
+           System.out.println("they are not equal to eachother");
            
        }
-       else 
+       else {
            System.out.println("they are equal to eachother");
-       
-       
-       
+        }
+        return 0;
     }
 }
 /*
